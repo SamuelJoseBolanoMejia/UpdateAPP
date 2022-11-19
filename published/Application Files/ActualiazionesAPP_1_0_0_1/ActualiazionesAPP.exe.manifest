@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ActualiazionesAPP.exe" version="1.0.0.1" publicKeyToken="8717e86092eb21d8" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ActualiazionesAPP" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ActualiazionesAPP.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ActualiazionesAPP.exe" size="11736">
+      <assemblyIdentity name="ActualiazionesAPP" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>dzUBSh0zbKuWDRNHVDKRx7zL+ecUgxTsKC/X2drmkrs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ActualiazionesAPP.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LT038\samuel.bolano" issuerKeyHash="7d3e30a41dc86be521724ded6c4a4eadf67b4452" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>uNmKc/Nor/W7W1Crhe2fHXGNqwAC/3ZCwBGwl6+yZyo=</DigestValue></Reference></SignedInfo><SignatureValue>u7Fbrd7RZNgA7/jnLrziRlLLGl3E7MJJxue5f1HHrjvLQj2G/YKWd7fuvk/bXLz1nhXlrUgs35Y94zd3tJYYjyCzLlBetAVV+M6KTAZuZHmXdE93Vf9Q7+tKUFZ3rbRAEEX0NONfQVTZV49E/Fo6kcaZ1megthGml49cPT/QMk4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vSe8tetNs/RjPgeKndqihwR0qta6F7JU16ogY5GEgyHw5HtG0KRGyYmrp12X2fxjdUR5BwkATQQozmEhJF/weckr0RdvfejKKzTAVHRCg95ejk/7rOuid72a1mZagNcOr0BUrV1+LcqEKJ96S/f0fHg3GsOLGVUL6jG6+Tw+MY0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2a67b2af97b011c04276ff0200ab8d711d9fed85ab505bbbf5af68f3738ad9b8" Description="" Url=""><as:assemblyIdentity name="ActualiazionesAPP.exe" version="1.0.0.1" publicKeyToken="8717e86092eb21d8" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LT038\samuel.bolano</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>bylmQ6mMjUKnCTYGxqmjm+aDdekllQvVUQwiAfSU89g=</DigestValue></Reference></SignedInfo><SignatureValue>S8Cj0eQ51xnW8bgp21KpLogF2IaAfBmFnf4N7ua7AJAtu9++qUJGTSRpRVcBkJBXwDDT8UNR4kZsTBy6kxIlslz/Q4Z4RyneWy16KwZNYxPK8ZR3VBdQOWjG5ZOeOY/bZ37AQc9hzHbgnOuAjpWzI30RYhAk00HYe27ZfKIKrJo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vSe8tetNs/RjPgeKndqihwR0qta6F7JU16ogY5GEgyHw5HtG0KRGyYmrp12X2fxjdUR5BwkATQQozmEhJF/weckr0RdvfejKKzTAVHRCg95ejk/7rOuid72a1mZagNcOr0BUrV1+LcqEKJ96S/f0fHg3GsOLGVUL6jG6+Tw+MY0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQHeb1i47nY7pFlgIUCNDPqzANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYATABUADAAMwA4AFwAcwBhAG0AdQBlAGwALgBiAG8AbABhAG4AbzAeFw0yMjExMTkxNDE5MTlaFw0yMzExMTkyMDE5MTlaMDExLzAtBgNVBAMeJgBMAFQAMAAzADgAXABzAGEAbQB1AGUAbAAuAGIAbwBsAGEAbgBvMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC9J7y1602z9GM+B4qd2qKHBHSq1roXslTXqiBjkYSDIfDke0bQpEbJiaunXZfZ/GN1RHkHCQBNBCjOYSEkX/B5ySvRF2996MorNMBUdEKD3l6OT/us66J3vZrWZlqA1w6vQFStXX4tyoQon3pL9/R8eDcaw4sZVQvqMbr5PD4xjQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAEDEWdkr2wqwtwqnNtUo7lvpc65POahA+KsywDaIBpvegUIW8TDPHlSX2Fkc2X2VsSrcOq20ZowU4DtVVT4v2Glqdnexx0Y0GDbog219dIRmeXn3P2f2ur7NMCdmKH3dFX0zg4T/Jz5As1gSilwjPc56wV7AfyZCTOCKERQe2Ihh</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
